@@ -8,7 +8,7 @@ from gevent.pywsgi import WSGIServer
 import matplotlib.image as mpimg
 
 
-model_path = r'C:\Users\HP\Desktop\work_comparision\vgg_model_final.h5'
+model_path = r'put_your_model_path_here'
 model = tf.keras.models.load_model(model_path)
 
 def image_predict(img):
