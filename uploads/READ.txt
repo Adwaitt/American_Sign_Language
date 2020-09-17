@@ -1,0 +1,4 @@
+Copy the relevant files (in .jpeg format) to this folder.
+->Do note that the static folder, the template folder, the uploads folder and the app.py are in the same directory.
+->Also, alter the 14th line of app.py to the path where your model is stored i.e path will be:
+  /.../../model.h5 
